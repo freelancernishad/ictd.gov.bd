@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+body {
+    background: url(../../img/bg_main.gif) repeat-y scroll center top rgba(0, 0, 0, 0);
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.ownContainer {
+    position: relative;
+    width: 970px;
+    margin: auto;
+    overflow: hidden;
+}
+.topNavWrapper {
+    background: #683091;
+    display: table;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 4px;
+    border-bottom: 4px solid #8bc643;
+}
+.topNavWrapper:before,
+.topNavWrapper:after,
+.topNavLeft:before,
+.topNavLeft ul:before,
+.topNavLeft ul:after,
+.topNavRight:before,
+.topNavRight ul:before,
+.topNavRight ul:after {
+    content: "";
+    display: table;
+}
+
+.topNavLeft {
+    width: 397px;
+    float: left;
+}
+.topNavLeft ul {
+    margin: 0;
+}
+.topNavRight ul {
+    width: 559px;
+    margin: 0;
+    text-align: right;
+}
+
+.topNavRight {
+    width: 45%;
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0 !important;
+    overflow: visible !important;
+    flex-basis: 0 !important;
+}
+
+.topNavLeft ul li {
+    display: inline;
+}
+
+.topNavRight ul li {
+    display: inline-block;
+}
+a.searchBtn {
+    background: #4f9823;
+    padding: 0px 7px 2px 7px;
+    color: white;
+    border-radius: 7px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 14px;
+}
+a.searchBtn:hover {
+    text-decoration: none;
+    color: white;
+    background: #3f8217;
+}
+a.lang {
+    background: mediumpurple;
+    color: white;
+    padding: 1px 7px 2px 7px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 14px;
+}
+
+a.lang:hover {
+    text-decoration: none;
+    background: #6b44bb;
+    color: white;
+}
+.topNavLeft ul li a {
+    font-size: 12px;
+    color: white;
+}
+select.category {
+    width: 100px;
+    font-size: 12px;
+}
+input.searchInput {
+    width: 100px;
+    padding: 1px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.slider {
+    position: relative;
+    width: 970px;
+    height: 220px;
+}
+
+.sliderItem {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 220px;
+    width: 100%;
+}
+.sliderItem.active {
+}
+
+.sliderItem img {
+    width: 100%;
+}
+marquee.latestNews {
+    padding: 8px 0px 0 0;
+    font-size: 17px;
+    color: red;
+    font-weight: 500;
+}
+
+/* Menu */
+
+ul.menuList {
+    background: #fafafa;
+    height: 40px;
+    border-bottom: 1px dotted #8e7c7c;
+}
+a.menuNavBar {
+    display: none;
+}
+li.MenuItem {
+    display: block;
+    float: left;
+    border-right: 1px dotted #827b7b;
+    position: relative;
+}
+
+li.MenuItem a {
+    padding: 9px;
+    display: block;
+}
+li.MenuItem a {
+    font-size: 14px;
+}
+
+li.MenuItem a:hover {
+    text-decoration: none;
+}
+
+a.menuLink1 {
+    color: #ff6600;
+    transition: all 0.7s;
+    position: relative;
+}
+a.menuLink1:hover {
+    background: #ff6600;
+    color: white;
+}
+.subMemuList1 {
+    border-top: 6px solid #ff6600;
+}
+
+a.menuLink2 {
+    color: #c40a2a;
+    transition: all 0.7s;
+}
+a.menuLink2:hover {
+    background: #c40a2a;
+    color: white;
+}
+.subMemuList2 {
+    border-top: 6px solid #c40a2a;
+}
+
+a.menuLink3 {
+    color: #84154d;
+    transition: all 0.7s;
+}
+a.menuLink3:hover {
+    background: #84154d;
+    color: white;
+}
+.subMemuList3 {
+    border-top: 6px solid #84154d;
+}
+
+a.menuLink4 {
+    color: #098346;
+    transition: all 0.7s;
+}
+a.menuLink4:hover {
+    background: #098346;
+    color: white;
+}
+.subMemuList4 {
+    border-top: 6px solid #098346;
+}
+
+a.menuLink5 {
+    color: #1399be;
+    transition: all 0.7s;
+}
+a.menuLink5:hover {
+    background: #1399be;
+    color: white;
+}
+.subMemuList5 {
+    border-top: 6px solid #1399be;
+}
+
+a.menuLink6 {
+    color: #8768de;
+    transition: all 0.7s;
+}
+a.menuLink6:hover {
+    background: #8768de;
+    color: white;
+}
+.subMemuList6 {
+    border-top: 6px solid #8768de;
+}
+
+a.menuLink7 {
+    color: #c40a2a;
+    transition: all 0.7s;
+}
+a.menuLink7:hover {
+    background: #c40a2a;
+    color: white;
+}
+.subMemuList7 {
+    border-top: 6px solid #c40a2a;
+}
+
+a.menuLink8 {
+    color: #0000ff;
+    transition: all 0.7s;
+}
+a.menuLink8:hover {
+    background: #0000ff;
+    color: white;
+}
+.subMemuList8 {
+    border-top: 6px solid #0000ff;
+}
+
+a.menuLink9 {
+    color: #84154d;
+    transition: all 0.7s;
+}
+a.menuLink9:hover {
+    background: #84154d;
+    color: white;
+}
+.subMemuList9 {
+    border-top: 6px solid #84154d;
+}
+
+a.menuLink10 {
+    color: #098346;
+    transition: all 0.7s;
+}
+a.menuLink10:hover {
+    background: #098346;
+    color: white;
+}
+.subMemuList10 {
+    border-top: 6px solid #098346;
+}
+.dropdownMenu {
+    position: absolute;
+    z-index: -1;
+    background: white;
+    width: 149px;
+    border: 1px solid #cecece;
+    box-shadow: -3px 3px 7px #00000052;
+    top: 75px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+li.MenuItem:hover .dropdownMenu {
+    z-index: 1;
+    opacity: 1;
+    top: 38px;
+}
+ul.toggoleMenu {
+    padding: 14px 7px;
+}
+
+ul.toggoleMenu li {
+    border-bottom: 1px dotted #8a8787;
+    display: block;
+}
+
+ul.toggoleMenu li a {
+    font-size: 12px;
+    color: black;
+}
+
+ul.toggoleMenu li:hover {
+    background: #eee;
+}
+
+marquee.newslatest {
+    background: #eae7e7;
+    padding: 8px 0px;
+    font-weight: 600;
+}
+
+.noticeSection {
+    background: #eae7e7;
+
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border: 1px solid #00000052;
+}
+.notice {
+    padding: 29px 115px;
+}
+
+h5.noticeTitle {
+    font-size: 17px;
+}
+
+ul.noticeList {
+    list-style: none;
+}
+
+li.noticeItem {
+    font-size: 12px;
+    padding: 1px 0px;
+}
+
+li.noticeItem a {
+    color: #000000cc;
+}
+a.allViewButton {
+    background: linear-gradient(to bottom, #666, #a6a6a6);
+    color: white;
+    text-decoration: none;
+    padding: 1px 12px;
+    float: right;
+    margin-bottom: 14px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+a.allViewButton:hover {
+    color: black;
+    text-decoration: none;
+}
+.block-hdnews.noticeSection.mt-3 {
+    height: 49px;
+    padding: 12px;
+}
+ul#marquee-vertical {
+    left: 62px !important;
+}
+ul#marquee-vertical li {
+    padding: 0 0 12px 0;
+    display: block;
+}
+div#news-container1 ul li {
+    display: block;
+    font-size: 12px;
+}
+
+div#news-container1 ul li a {
+    color: black;
+    display: block;
+}
+span.float-left {
+    font-size: 13px;
+}
+
+div#news-container1 {
+    margin-top: 8px;
+}
+.news {
+    padding: 0px 40px;
+}
+img.serviceIcon {
+    width: 100px;
+}
+.serveceBox {
+    background: #eae7e7;
+    margin-right: 13px;
+    margin-top: 16px;
+    padding: 14px;
+    border: 3px solid #66339978;
+}
+.importantLink {
+    padding: 23px 40px;
+}
+
+.importantLink .row .col-6 a {
+    color: black;
+    font-size: 13px;
+}
+
+/*
+side bar
+
+*/
+.sidebarTitle h4 {
+    font-size: 13px;
+    margin: 0;
+    color: white;
+    font-weight: 600;
+}
+
+.sidebarTitle {
+    background: #609513;
+    padding: 9px 8px;
+}
+.imageInfo img {
+    width: 170px;
+    align-items: center;
+}
+
+.imageInfo {
+    text-align: center;
+    margin: 12px 0px;
+}
+.name {
+    font-size: 12px;
+    color: #609513;
+}
+.position {
+    font-size: 13px;
+    width: 199px;
+    margin: auto;
+    font-weight: 600;
+}
+a.detailsBtn {
+    background: linear-gradient(to bottom, #666, #a6a6a6);
+    width: 100%;
+    display: block;
+    color: white;
+    font-size: 12px;
+    padding: 3px;
+}
+
+a.detailsBtn:hover {
+    text-decoration: none;
+}
+ul.sidebarList li {
+    display: block;
+    font-size: 11px;
+    padding: 6px;
+}
+
+ul.sidebarList {
+    padding: 11px 10px;
+}
+
+ul.sidebarList li a {
+    color: black;
+}
+
+ul.footerList li {
+    float: left;
+}
+
+ul.footerList li a {
+    display: block;
+    padding: 8px;
+    font-size: 13px;
+    color: #0e0e0e;
+    border-right: 1px dotted #5a5454;
+}
+
+ul.footerList {
+    list-style: none;
+}
+.footerBottom {
+    margin-top: 11px;
+}
+
+ul.footerList li a:hover {
+    background: #777;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+p.footerText {
+    font-size: 11px;
+    float: right;
+}
+
+img.footerImg {
+    width: 263px;
+}
+p.help {
+    font-size: 10px;
+    float: right;
+}

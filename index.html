@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <title></title>
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <script type="text/javascript" src="assets/js/jquery-3.5.1.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.vticker-min.js"></script>
+    </head>
+    <body>
+        <div class="ownContainer">
+            <header>
+                <div class="topNavWrapper">
+                    <div class="topNavLeft">
+                        <ul>
+                            <li><a href="#">বাংলাদেশ জাতীয় তথ্য বাতায়ন</a></li>
+
+                            <li>
+                                <select class="category">
+                                    <option value="">অফিসের ধরণ</option>
+                                    <option value="ministry">মন্ত্রণালয়/বিভাগ</option>
+                                    <option value="directorate">অধিদপ্তর বাতায়ন</option>
+                                    <option value="divisional">বিভাগীয় বাতায়ন</option>
+                                    <option value="districal">জেলা বাতায়ন</option>
+                                    <option value="upazilaBatayon">উপজেলা বাতায়ন</option>
+                                    <option value="unionBatayon">ইউনিয়ন বাতায়ন</option>
+                                    <option value="otherOfficeList">অন্যান্য</option>
+                                </select>
+                            </li>
+                            <li><a class="searchBtn" href="#">Go</a></li>
+                        </ul>
+                    </div>
+                    <div class="topNavRight">
+                        <ul>
+                            <li><input type="text" name="search" class="searchInput" /></li>
+
+                            <li><a class="searchBtn" href="#">Search</a></li>
+                            <li><a class="lang" href="#">English</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="headerSliderSection">
+                    <div class="slider" id="slideshow">
+                        <div class="sliderItem active"><img src="slider_Image/Banner1.jpg" alt="" /></div>
+                        <div class="sliderItem"><img src="slider_Image/Banner2.jpg" alt="" /></div>
+                        <div class="sliderItem"><img src="slider_Image/Banner3.jpg" alt="" /></div>
+                        <div class="sliderItem"><img src="slider_Image/Banner4.jpg" alt="" /></div>
+                        <div class="sliderItem"><img src="slider_Image/Banner5.jpg" alt="" /></div>
+                        <div class="sliderItem"><img src="slider_Image/14.01.2020.jpg" alt="" /></div>
+                        <div class="sliderItem"><img src="slider_Image/Check1.jpg" alt="" /></div>
+                        <div class="sliderItem"><img src="slider_Image/Digital_bangladesh_day.jpg" alt="" /></div>
+                        <div class="sliderItem"><img src="slider_Image/Digital_World-2020.jpg" alt="" /></div>
+                    </div>
+
+                </div>
+
+                <nav class="nav">
+                    <div class="mainMenu">
+                        <ul class="menuList">
+                            <li class="MenuItem">
+                                <a class="menuLink1" href="#">বিভাগ সম্পর্কিত</a>
+                                <div class="dropdownMenu">
+                                    <ul class="toggoleMenu subMemuList1">
+                                        <li><a href="#">ইতিহাস ও প্রধান কার্যাবলি</a></li>
+                                        <li><a href="#"> ভিশন ও মিশন </a></li>
+                                        <li><a href="#">অর্গানোগ্রাম</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="MenuItem">
+                                <a class="menuLink2" href="#">মাননীয় উপদেষ্টা/প্রতিমন্ত্রী</a>
+                                <div class="dropdownMenu">
+                                    <ul class="toggoleMenu subMemuList2">
+                                        <li><a href="#">ইতিহাস ও প্রধান কার্যাবলি</a></li>
+                                        <li><a href="#"> ভিশন ও মিশন </a></li>
+                                        <li><a href="#">অর্গানোগ্রাম</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="MenuItem">
+                                <a class="menuLink3" href="#">দপ্তর/সংস্থা </a>
+
+                                <div class="dropdownMenu">
+                                    <ul class="toggoleMenu subMemuList3">
+                                        <li><a href="#">ইতিহাস ও প্রধান কার্যাবলি</a></li>
+                                        <li><a href="#"> ভিশন ও মিশন </a></li>
+                                        <li><a href="#">অর্গানোগ্রাম</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="MenuItem">
+                                <a class="menuLink4" href="#">প্রকল্প/কর্মসূচি </a>
+                                <div class="dropdownMenu">
+                                    <ul class="toggoleMenu subMemuList4">
+                                        <li><a href="#">ইতিহাস ও প্রধান কার্যাবলি</a></li>
+                                        <li><a href="#"> ভিশন ও মিশন </a></li>
+                                        <li><a href="#">অর্গানোগ্রাম</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="MenuItem">
+                                <a class="menuLink5" href="#">আইন/নীতিমালা</a>
+                                <div class="dropdownMenu">
+                                    <ul class="toggoleMenu subMemuList5">
+                                        <li><a href="#">ইতিহাস ও প্রধান কার্যাবলি</a></li>
+                                        <li><a href="#"> ভিশন ও মিশন </a></li>
+                                        <li><a href="#">অর্গানোগ্রাম</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="MenuItem">
+                                <a class="menuLink6" href="#">ই-সেবা</a>
+                                <div class="dropdownMenu">
+                                    <ul class="toggoleMenu subMemuList6">
+                                        <li><a href="#">ইতিহাস ও প্রধান কার্যাবলি</a></li>
+                                        <li><a href="#"> ভিশন ও মিশন </a></li>
+                                        <li><a href="#">অর্গানোগ্রাম</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="MenuItem">
+                                <a class="menuLink7" href="#">করোনাভাইরাস </a>
+                                <div class="dropdownMenu">
+                                    <ul class="toggoleMenu subMemuList7">
+                                        <li><a href="#">ইতিহাস ও প্রধান কার্যাবলি</a></li>
+                                        <li><a href="#"> ভিশন ও মিশন </a></li>
+                                        <li><a href="#">অর্গানোগ্রাম</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="MenuItem">
+                                <a class="menuLink8" href="#">মুজিব বর্ষ </a>
+                                <div class="dropdownMenu">
+                                    <ul class="toggoleMenu subMemuList8">
+                                        <li><a href="#">ইতিহাস ও প্রধান কার্যাবলি</a></li>
+                                        <li><a href="#"> ভিশন ও মিশন </a></li>
+                                        <li><a href="#">অর্গানোগ্রাম</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="MenuItem">
+                                <a class="menuLink9" href="#">ডিজিটাল মেলা ২০২০</a>
+                                <div class="dropdownMenu">
+                                    <ul class="toggoleMenu subMemuList9">
+                                        <li><a href="#">ইতিহাস ও প্রধান কার্যাবলি</a></li>
+                                        <li><a href="#"> ভিশন ও মিশন </a></li>
+                                        <li><a href="#">অর্গানোগ্রাম</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="MenuItem">
+                                <a class="menuLink10" href="#">ডিজিটাল ওয়ার্ল্ড ২০২০</a>
+                                <div class="dropdownMenu">
+                                    <ul class="toggoleMenu subMemuList10">
+                                        <li><a href="#">ইতিহাস ও প্রধান কার্যাবলি</a></li>
+                                        <li><a href="#"> ভিশন ও মিশন </a></li>
+                                        <li><a href="#">অর্গানোগ্রাম</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="middleSection mt-3">
+                <div class="row mr-0 ml-0">
+                    <div class="col-md-9 pl-0">
+                        <div class="National-Portal-Card-PM"><img src="img/National-Portal-Card-PM.jpeg" alt="" /></div>
+                        <marquee class="newslatest" direction="left" scrollamount="4" onmouseover="this.stop()" onmouseout="this.start()">
+                            নো মাস্ক নো সার্ভিস। করোনাভাইরাসের বিস্তার রোধে এখনই ডাউনলোড করুন Corona Tracer BD অ্যাপ। ডাউনলোড করতে ক্লিক করুন। নিজে সুরক্ষিত থাকুন অন্যকেও নিরাপদ রাখুন। দেশের প্রথম ক্রাউডফান্ডিং প্ল্যাটফর্ম 'একদেশ'- এর
+                            মাধ্যমে আর্থিক অনুদান পৌঁছে দিন নির্বাচিত সরকারি-বেসরকারি প্রতিষ্ঠানসমূহে। ভিজিট করুন অথবা Ek Desh অ্যাপ ডাউনলোড করুন। করোনার লক্ষণ দেখা দিলে গোপন না করে ডাক্তারের পরামর্শের জন্য ফ্রি কল করুন ৩৩৩ ও ১৬২৬৩ নম্বরে।
+                            করোনাভাইরাস প্রতিরোধে নিয়ম মেনে মাস্ক ব্যবহার করুন। আতঙ্কিত না হয়ে বরং সচেতন থাকুন। ভিজিট করুন <a href="//corona.gov.bd" target="_blank" style="color: blue;" title="corona.gov.bd">corona.gov.bd</a>
+                        </marquee>
+
+                        <div class="noticeSection" style="background-image: url(img/bg_notice_board.png);">
+                            <div class="notice">
+                                <h5 class="noticeTitle">নোটিশ বোর্ড</h5>
+
+                                <ul class="noticeList">
+                                    <li class="noticeItem"><a href="">মুজিববর্ষ উপলক্ষ্যে আয়োজিত টেবিল টেনিস প্রতিযোগিতায় অংশগ্রহণের নিমিত্ত রেজিস্ট্রেশন।</a></li>
+                                    <li class="noticeItem"><a href="">অফিস আদেশ (চাকরি স্থায়ীকরণ)</a></li>
+                                    <li class="noticeItem"><a href="">প্রজ্ঞাপন (চাকরি স্থায়ীকরণ)</a></li>
+                                    <li class="noticeItem"><a href="">অফিস আদেশ (অবমুক্তি, জনাব খন্দকার মনোয়ার মোর্শেদ (পরিচিতি নং-১৫৭৬১), উপসচিব)</a></li>
+                                    <li class="noticeItem"><a href="">Expression of Interest (EoI) (মোবাইল গেইম ও এ্যাপ্লিকেশন এর দক্ষতা উন্নয়ন শীর্ষক প্রক...</a></li>
+                                </ul>
+                            </div>
+                            <a href="" class="allViewButton">সকল</a>
+                        </div>
+
+                        <div class="noticeSection mt-3" style="">
+                            <div class="news">
+                                <span class="float-left">খবর:</span>
+                                <div id="news-container1">
+                                    <ul>
+                                        <li><a href="#">বার্ষিক কর্মসম্পাদন চুক্তি (এপিএ) ২০১৯-২০২০ এর চূড়ান্ত মূল্যায়নে তথ্য ও যোগাযোগ প্রযুক্তি বিভাগের প্রথম স্থান অর্জন</a></li>
+                                        <li><a href="#">কোভিড-১৯ ভ্যাকসিনের জন্য নিবন্ধন করুন (২০২১-০১-২৬)</a></li>
+                                        <li><a href="#">শেখ হাসিনার নেতৃত্বে ডিজিটাল বাংলাদেশ এর এগিয়ে যাওয়ার ১২ বছর</a></li>
+                                    </ul>
+                                </div>
+
+                                <a href="" class="allViewButton float-right">সকল</a>
+                            </div>
+                        </div>
+
+                        <script type="text/javascript">
+                            $(function () {
+                                $("#news-container1").vTicker({
+                                    //speed: 1000,
+                                   // pause: 7000,
+                                   // animation: "fade",
+                                   // mousePause: true,
+                                   // showItems: 1,
+									speed: 700,
+									pause: 4000,
+									showItems: 1,
+									mousePause: true,
+									height: 0,
+									animate: true,
+									margin: 0,
+									padding: 0,
+									startPaused: false
+								   
+								   
+                                });
+                            });
+                        </script>
+
+                        <div class="service">
+                            <div class="row">
+                                <div class="col-6 p-0">
+                                    <div class="serveceBox">
+                                        <h5 class="noticeTitle">আমাদের বিষয়ে</h5>
+                                        <div class="row">
+                                            <div class="col-4 p-0"><img class="serviceIcon" src="img/aboutus2.png" alt="" /></div>
+                                            <div class="col-8">
+                                                <ul class="noticeList">
+                                                    <li class="noticeItem"><a href="">ইতিহাস ও কার্যাবলি</a></li>
+                                                    <li class="noticeItem"><a href="">ভিশন ও মিশন</a></li>
+                                                    <li class="noticeItem"><a href="">প্রজ্ঞাপন (চাকরি স্থায়ীকরণ)</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মকর্তা/কর্মচারী</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মবণ্টন</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 p-0">
+                                    <div class="serveceBox">
+                                        <h5 class="noticeTitle">আমাদের বিষয়ে</h5>
+                                        <div class="row">
+                                            <div class="col-4 p-0"><img class="serviceIcon" src="img/পরিপত্র_0.png" alt="" /></div>
+                                            <div class="col-8">
+                                                <ul class="noticeList">
+                                                    <li class="noticeItem"><a href="">ইতিহাস ও কার্যাবলি</a></li>
+                                                    <li class="noticeItem"><a href="">ভিশন ও মিশন</a></li>
+                                                    <li class="noticeItem"><a href="">প্রজ্ঞাপন (চাকরি স্থায়ীকরণ)</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মকর্তা/কর্মচারী</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মবণ্টন</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 p-0">
+                                    <div class="serveceBox">
+                                        <h5 class="noticeTitle">আমাদের বিষয়ে</h5>
+                                        <div class="row">
+                                            <div class="col-4 p-0"><img class="serviceIcon" src="img/Notice logo.png" alt="" /></div>
+                                            <div class="col-8">
+                                                <ul class="noticeList">
+                                                    <li class="noticeItem"><a href="">ইতিহাস ও কার্যাবলি</a></li>
+                                                    <li class="noticeItem"><a href="">ভিশন ও মিশন</a></li>
+                                                    <li class="noticeItem"><a href="">প্রজ্ঞাপন (চাকরি স্থায়ীকরণ)</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মকর্তা/কর্মচারী</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মবণ্টন</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 p-0">
+                                    <div class="serveceBox">
+                                        <h5 class="noticeTitle">আমাদের বিষয়ে</h5>
+                                        <div class="row">
+                                            <div class="col-4 p-0"><img class="serviceIcon" src="img/POLICY_PUBLICATION-New.png" alt="" /></div>
+                                            <div class="col-8">
+                                                <ul class="noticeList">
+                                                    <li class="noticeItem"><a href="">ইতিহাস ও কার্যাবলি</a></li>
+                                                    <li class="noticeItem"><a href="">ভিশন ও মিশন</a></li>
+                                                    <li class="noticeItem"><a href="">প্রজ্ঞাপন (চাকরি স্থায়ীকরণ)</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মকর্তা/কর্মচারী</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মবণ্টন</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 p-0">
+                                    <div class="serveceBox">
+                                        <h5 class="noticeTitle">আমাদের বিষয়ে</h5>
+                                        <div class="row">
+                                            <div class="col-4 p-0"><img class="serviceIcon" src="img/nis_logo3.png" alt="" /></div>
+                                            <div class="col-8">
+                                                <ul class="noticeList">
+                                                    <li class="noticeItem"><a href="">ইতিহাস ও কার্যাবলি</a></li>
+                                                    <li class="noticeItem"><a href="">ভিশন ও মিশন</a></li>
+                                                    <li class="noticeItem"><a href="">প্রজ্ঞাপন (চাকরি স্থায়ীকরণ)</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মকর্তা/কর্মচারী</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মবণ্টন</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 p-0">
+                                    <div class="serveceBox">
+                                        <h5 class="noticeTitle">আমাদের বিষয়ে</h5>
+                                        <div class="row">
+                                            <div class="col-4 p-0"><img class="serviceIcon" src="img/Citizen Charter.png" alt="" /></div>
+                                            <div class="col-8">
+                                                <ul class="noticeList">
+                                                    <li class="noticeItem"><a href="">ইতিহাস ও কার্যাবলি</a></li>
+                                                    <li class="noticeItem"><a href="">ভিশন ও মিশন</a></li>
+                                                    <li class="noticeItem"><a href="">প্রজ্ঞাপন (চাকরি স্থায়ীকরণ)</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মকর্তা/কর্মচারী</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মবণ্টন</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 p-0">
+                                    <div class="serveceBox">
+                                        <h5 class="noticeTitle">আমাদের বিষয়ে</h5>
+                                        <div class="row">
+                                            <div class="col-4 p-0"><img class="serviceIcon" src="img/apa.png" alt="" /></div>
+                                            <div class="col-8">
+                                                <ul class="noticeList">
+                                                    <li class="noticeItem"><a href="">ইতিহাস ও কার্যাবলি</a></li>
+                                                    <li class="noticeItem"><a href="">ভিশন ও মিশন</a></li>
+                                                    <li class="noticeItem"><a href="">প্রজ্ঞাপন (চাকরি স্থায়ীকরণ)</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মকর্তা/কর্মচারী</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মবণ্টন</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 p-0">
+                                    <div class="serveceBox">
+                                        <h5 class="noticeTitle">আমাদের বিষয়ে</h5>
+                                        <div class="row">
+                                            <div class="col-4 p-0"><img class="serviceIcon" src="img/complain.png" alt="" /></div>
+                                            <div class="col-8">
+                                                <ul class="noticeList">
+                                                    <li class="noticeItem"><a href="">ইতিহাস ও কার্যাবলি</a></li>
+                                                    <li class="noticeItem"><a href="">ভিশন ও মিশন</a></li>
+                                                    <li class="noticeItem"><a href="">প্রজ্ঞাপন (চাকরি স্থায়ীকরণ)</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মকর্তা/কর্মচারী</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মবণ্টন</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 p-0">
+                                    <div class="serveceBox">
+                                        <h5 class="noticeTitle">আমাদের বিষয়ে</h5>
+                                        <div class="row">
+                                            <div class="col-4 p-0"><img class="serviceIcon" src="img/infocom.png" alt="" /></div>
+                                            <div class="col-8">
+                                                <ul class="noticeList">
+                                                    <li class="noticeItem"><a href="">ইতিহাস ও কার্যাবলি</a></li>
+                                                    <li class="noticeItem"><a href="">ভিশন ও মিশন</a></li>
+                                                    <li class="noticeItem"><a href="">প্রজ্ঞাপন (চাকরি স্থায়ীকরণ)</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মকর্তা/কর্মচারী</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মবণ্টন</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 p-0">
+                                    <div class="serveceBox">
+                                        <h5 class="noticeTitle">আমাদের বিষয়ে</h5>
+                                        <div class="row">
+                                            <div class="col-4 p-0"><img class="serviceIcon" src="img/INNOVATION.png" alt="" /></div>
+                                            <div class="col-8">
+                                                <ul class="noticeList">
+                                                    <li class="noticeItem"><a href="">ইতিহাস ও কার্যাবলি</a></li>
+                                                    <li class="noticeItem"><a href="">ভিশন ও মিশন</a></li>
+                                                    <li class="noticeItem"><a href="">প্রজ্ঞাপন (চাকরি স্থায়ীকরণ)</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মকর্তা/কর্মচারী</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মবণ্টন</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 p-0">
+                                    <div class="serveceBox">
+                                        <h5 class="noticeTitle">আমাদের বিষয়ে</h5>
+                                        <div class="row">
+                                            <div class="col-4 p-0"><img class="serviceIcon" src="img/SPS-3.png" alt="" /></div>
+                                            <div class="col-8">
+                                                <ul class="noticeList">
+                                                    <li class="noticeItem"><a href="">ইতিহাস ও কার্যাবলি</a></li>
+                                                    <li class="noticeItem"><a href="">ভিশন ও মিশন</a></li>
+                                                    <li class="noticeItem"><a href="">প্রজ্ঞাপন (চাকরি স্থায়ীকরণ)</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মকর্তা/কর্মচারী</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মবণ্টন</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 p-0">
+                                    <div class="serveceBox">
+                                        <h5 class="noticeTitle">আমাদের বিষয়ে</h5>
+                                        <div class="row">
+                                            <div class="col-4 p-0"><img class="serviceIcon" src="img/POLICY_PUBLICATION-New.png" alt="" /></div>
+                                            <div class="col-8">
+                                                <ul class="noticeList">
+                                                    <li class="noticeItem"><a href="">ইতিহাস ও কার্যাবলি</a></li>
+                                                    <li class="noticeItem"><a href="">ভিশন ও মিশন</a></li>
+                                                    <li class="noticeItem"><a href="">প্রজ্ঞাপন (চাকরি স্থায়ীকরণ)</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মকর্তা/কর্মচারী</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মবণ্টন</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 p-0">
+                                    <div class="serveceBox">
+                                        <h5 class="noticeTitle">আমাদের বিষয়ে</h5>
+                                        <div class="row">
+                                            <div class="col-4 p-0"><img class="serviceIcon" src="img/budget2.png" alt="" /></div>
+                                            <div class="col-8">
+                                                <ul class="noticeList">
+                                                    <li class="noticeItem"><a href="">ইতিহাস ও কার্যাবলি</a></li>
+                                                    <li class="noticeItem"><a href="">ভিশন ও মিশন</a></li>
+                                                    <li class="noticeItem"><a href="">প্রজ্ঞাপন (চাকরি স্থায়ীকরণ)</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মকর্তা/কর্মচারী</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মবণ্টন</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 p-0">
+                                    <div class="serveceBox">
+                                        <h5 class="noticeTitle">আমাদের বিষয়ে</h5>
+                                        <div class="row">
+                                            <div class="col-4 p-0"><img class="serviceIcon" src="img/Capture.jpg" alt="" /></div>
+                                            <div class="col-8">
+                                                <ul class="noticeList">
+                                                    <li class="noticeItem"><a href="">ইতিহাস ও কার্যাবলি</a></li>
+                                                    <li class="noticeItem"><a href="">ভিশন ও মিশন</a></li>
+                                                    <li class="noticeItem"><a href="">প্রজ্ঞাপন (চাকরি স্থায়ীকরণ)</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মকর্তা/কর্মচারী</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মবণ্টন</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 p-0">
+                                    <div class="serveceBox">
+                                        <h5 class="noticeTitle">আমাদের বিষয়ে</h5>
+                                        <div class="row">
+                                            <div class="col-4 p-0"><img class="serviceIcon" src="img/-সেবা-9.png" alt="" /></div>
+                                            <div class="col-8">
+                                                <ul class="noticeList">
+                                                    <li class="noticeItem"><a href="">ইতিহাস ও কার্যাবলি</a></li>
+                                                    <li class="noticeItem"><a href="">ভিশন ও মিশন</a></li>
+                                                    <li class="noticeItem"><a href="">প্রজ্ঞাপন (চাকরি স্থায়ীকরণ)</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মকর্তা/কর্মচারী</a></li>
+                                                    <li class="noticeItem"><a href="">কর্মবণ্টন</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- row -->
+                        </div>
+                        <!-- service -->
+                        <div class="sidebarTitle mt-3"><h4>Frelancer Nishad এর অবস্থান</h4></div>
+
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps?q=freelancer%20Nishad&z=16&t=k&ie=UTF8&output=embed" width="100%" height="400"></iframe>
+                            <noscript> Full functionality of this site requires JavaScript to be enabled. Learn how to <a href="https://javascriptdownload.org/">Download JavaScript</a> in your browser.</noscript>
+                        </div>
+
+                        <div class="sidebarTitle mt-3"><h4>গুরুত্বপূর্ণ লিংক</h4></div>
+
+                        <div class="importantLink">
+                            <div class="row">
+                                <div class="col-6"><a href="#">ফুড ফর নেশন</a></div>
+                                <div class="col-6">/</div>
+
+                                <div class="col-6"><a href="#">করোনাভাইরাস</a></div>
+                                <div class="col-6">/</div>
+
+                                <div class="col-6"><a href="#">মুক্তপাঠ</a></div>
+                                <div class="col-6">/</div>
+
+                                <div class="col-6"><a href="#">জাতীয় পোর্টাল</a></div>
+                                <div class="col-6">/</div>
+
+                                <div class="col-6"><a href="#">ই-বুক</a></div>
+                                <div class="col-6">/</div>
+
+                                <div class="col-6"><a href="#">প্রাথমিক ডিজিটাল কন্টেন্ট</a></div>
+                                <div class="col-6">/</div>
+
+                                <div class="col-6"><a href="#">স্টার্টআপ বাংলাদেশ</a></div>
+                                <div class="col-6">/</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- col-md-9 -->
+
+                    <div class="col-md-3 pr-0">
+                        <div class="sidebarTitle"><h4>মাননীয় উপদেষ্টা</h4></div>
+                        <div class="imageInfo">
+                            <img src="img/last-pic-adviser.jpg" alt="" />
+
+                            <div class="name">জনাব সজীব ওয়াজেদ</div>
+                            <div class="position">প্রধানমন্ত্রীর আইসিটি বিষয়ক মাননীয় উপদেষ্টা</div>
+                            <a href="#" class="detailsBtn">বিস্তারিত</a>
+                        </div>
+
+                        <div class="sidebarTitle"><h4>মাননীয় প্রতিমন্ত্রী</h4></div>
+                        <div class="imageInfo">
+                            <img src="img/HSM.jpg" alt="" />
+
+                            <div class="name">জনাব জুনাইদ আহ্‌মেদ পলক এমপি</div>
+                            <div class="position">মাননীয় প্রতিমন্ত্রী</div>
+                            <a href="#" class="detailsBtn">বিস্তারিত</a>
+                        </div>
+
+                        <div class="sidebarTitle"><h4>সিনিয়র সচিব</h4></div>
+                        <div class="imageInfo">
+                            <img src="img/Senior_Secretary_Sir.jpg" alt="" />
+
+                            <div class="name">জনাব এন এম জিয়াউল আলম পিএএ</div>
+                            <div class="position">সিনিয়র সচিব</div>
+                            <a href="#" class="detailsBtn">বিস্তারিত</a>
+                        </div>
+
+                        <div class="sidebarTitle"><h4>বার্ষিক কর্মসম্পাদন চুক্তি (এপিএ) ২০১৯-২০২০ এর চূড়ান্ত মূল্যায়নে তথ্য ও যোগাযোগ প্রযুক্তি বিভাগের প্রথম স্থান অর্জন</h4></div>
+                        <div class="imageInfo">
+                            <img src="img/2020-12-29_054544-1.jpg" alt="" />
+                        </div>
+                        <div class="sidebarTitle"><h4>সম্মাননাপত্র</h4></div>
+                        <div class="imageInfo">
+                            <img src="img/APA.jpg" alt="" />
+                        </div>
+
+                        <div class="sidebarTitle"><h4>আভ্যন্তরীণ ই-সেবাসমূহ</h4></div>
+                        <ul class="sidebarList">
+                            <li><a href="#">ওয়েব মেইল</a></li>
+                            <li><a href="#">বৃত্তি ও আইসিটি উদ্ভাবনী অনুদান</a></li>
+                            <li><a href="#">ন্যাশনাল এন্টারপ্রাইজ আর্কিটেকচার</a></li>
+                            <li><a href="#">সিআইআরটি</a></li>
+                            <li><a href="#">অনলাইন নিয়োগ সিস্টেম</a></li>
+                            <li><a href="#">ওয়ান স্টপ সার্ভিস (বাংলাদেশ হাইটেক পার্ক কর্তৃপক্ষ)</a></li>
+                        </ul>
+
+                        <div class="sidebarTitle"><h4>কেন্দ্রীয় ই-সেবা</h4></div>
+
+                        <div class="sidebarTitle mt-4"><h4>আর্কাইভ</h4></div>
+                        <ul class="sidebarList">
+                            <li><a href="#">CTO FORUM-2014 </a></li>
+                            <li><a href="#">পত্রিকায় প্রকাশিত আইসিটি সম্পর্কিত প্রতিবেদনসমূহ </a></li>
+                            <li><a href="#">ডিজিটাল ওয়ার্ল্ড/আইসিটি এক্সপো </a></li>
+                        </ul>
+
+                        <div class="sidebarTitle"><h4>ওয়েবসাইট দর্শনার্থী [০৬.১১.২০১৯ তারিখ থেকে কার্যকর]</h4></div>
+                        <div class="imageInfo">
+                            <img src="img/6.png" alt="" />
+                        </div>
+                        <div class="sidebarTitle"><h4>Call for Nation</h4></div>
+                        <div class="imageInfo">
+                            <img src="img/webphoto.jpg" alt="" />
+                        </div>
+
+                        <div class="sidebarTitle"><h4>জরুরি হটলাইন</h4></div>
+                        <div class="imageInfo">
+                            <img src="img/National-Helpline.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer_top_bg" style="background: url(img/footer_top_bg.png); height: 81px; background-repeat: no-repeat;"></div>
+                <div class="footerBottom">
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="footerList">
+                                <li><a href="#">সাইটম্যাপ</a></li>
+                                <li><a href="#">মতামত প্রদান</a></li>
+                                <li><a href="#">তথ্য ও যোগাযোগ প্রযুক্তি বিভাগের ওয়েব সাইট ভিজিট করার জন্য ধন্যবাদ</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <p class="footerText">পরিকল্পনা ও বাস্তবায়নে: মন্ত্রিপরিষদ বিভাগ, এটুআই, বিসিসি, ডিওআইসিটি ও বেসিস।</p>
+                            <p class="help">কারিগরি সহায়তায়: <img class="footerImg" src="img/np-logo-set.png" alt="" /></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script type="text/javascript">
+            $("#slideshow > div:gt(0)").hide();
+
+            setInterval(function () {
+                $("#slideshow > div:first").fadeOut(2000).next().fadeIn(2000).end().appendTo("#slideshow");
+            }, 5000);
+        </script>
+    </body>
+</html>
